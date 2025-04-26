@@ -36,10 +36,25 @@ The simulation models a network with multiple nodes attempting to transmit packe
    - Simulation time (in milliseconds)
    - Backoff strategy (1-5)
 
-2. Run the simulation:
-```matlab
-script
-```
+2. Run the simulation using one of these methods:
+
+   **Method 1: From MATLAB**
+   ```matlab
+   % Open MATLAB and navigate to the project directory
+   cd /path/to/csma-strategies-simulation
+   
+   % Run the script
+   script
+   ```
+
+   **Method 2: From Command Line**
+   ```bash
+   # Navigate to the project directory
+   cd /path/to/csma-strategies-simulation
+   
+   # Run using MATLAB command line
+   matlab -batch "script"
+   ```
 
 3. The simulation will output:
    - Network utilization
